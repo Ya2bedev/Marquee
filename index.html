@@ -1,99 +1,261 @@
 <!DOCTYPE html>
 <html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta
+			http-equiv="X-UA-Compatible"
+			content="IE=edge"
+		/>
+		<meta
+			name="viewport"
+			content="width=device-width, initial-scale=1.0"
+		/>
+		<title>Marquee Tag</title>
+		<link
+			rel="stylesheet"
+			href="./stle.css"
+		/>
+	</head>
+	<style>
+		@font-face {
+			font-family: Akbalthom;
+			font-family: besdong;
+			src: url(./font/AKbalthom\ Ream\ Regular.ttf);
+			src: url(./font/KonKhmer_BesDong_V2.ttf);
+		}
+		body {
+			background-color: rgba(2, 2, 66, 0.596);
+			margin: 3rem 4rem;
+		}
+	</style>
+	<body>
+		<div>
+			<h1 align="center">
+				<marquee
+					style="font-family: besdong"
+					behavior="alternate"
+					width="70%"
+					bgcolor="E14D2A"
+					>ហេឡូកូនប៉ា​
+				</marquee>
+				<marquee
+					style="font-family: Akbalthom"
+					behavior="alternate"
+					width="80%"
+					bgcolor="E14D2A"
+					>អោយស៊ូធ្វើមិចហ៎បើគេក៏គោរពស៊ូតដែរនិងហា
+				</marquee>
+			</h1>
+			<h1 align="center">
+				&lt;-------------------------MARQUEE------------------------------>
+			</h1>
+			<marquee bgcolor="F56EB3">Simple marquee</marquee>
+			<marquee
+				width="30%"
+				bgcolor="CB1C8D"
+				>MarQuee Use With Width 30%</marquee
+			>
+			<marquee
+				height="50"
+				bgcolor="7F167F"
+				style="color: aliceblue"
+				>Marquee Use with Heightc 50</marquee
+			>
+			<marquee
+				direction="right"
+				bgcolor="460C68"
+				style="color: aliceblue"
+				>direction right</marquee
+			>
+			<marquee
+				direction="left"
+				bgcolor="460C68"
+				style="color: aliceblue"
+				>direction left</marquee
+			>
+			<marquee
+				direction="up"
+				bgcolor="460C68"
+				style="color: aliceblue"
+				>direction up</marquee
+			>
+			<marquee
+				direction="down"
+				bgcolor="460C68"
+				style="color: aliceblue"
+				>direction down</marquee
+			>
+			<marquee
+				scrolldelay="200"
+				bgcolor="pink"
+				>scrolldelay="200"</marquee
+			>
+			<marquee
+				scrollamount="10"
+				bgcolor="F07DEA"
+				>scrollamount="10"</marquee
+			>
+			<marquee
+				scrollamount="20"
+				bgcolor="A460ED"
+				>scrollamount="20"</marquee
+			>
+			<marquee
+				scrollamount="30"
+				bgcolor="9FC9F3"
+				>scrollamount="30"</marquee
+			>
+			<marquee
+				behavior="scrolling"
+				bgcolor="A5F1E9"
+				>behavior="scrolling"</marquee
+			>
+			<marquee
+				behavior="sliding"
+				bgcolor="7FE9DE"
+				>behavior="slide"</marquee
+			>
+			<marquee
+				behavior="alternate"
+				bgcolor="FFF6BF"
+				>behavior="alternate"</marquee
+			>
+			<marquee
+				loop="2"
+				bgcolor="FFEBAD"
+				>loop="1"</marquee
+			>
+			<marquee
+				loop="100"
+				bgcolor="FFEBAD"
+				>loop="100"</marquee
+			>
+			<marquee
+				vspace="30"
+				bgcolor="B1B2FF"
+				>vspace="30"</marquee
+			>
+			<marquee
+				hspace="30"
+				bgcolor="B1B2FF"
+				>hspace="30"
+			</marquee>
+		</div>
+		<h1 align="center">
+			&lt;-------------------------LIST------------------------------>
+		</h1>
+		<div style="color: aqua">
+			<!-- HEAD LIST -->
+			<ol type="I">
+				<li>
+					Profile
+					<ol>
+						<li>A</li>
+						<li>B</li>
+						<li>C</li>
+						<li>D</li>
+						<li>E</li>
+						<ul style="list-style-type: square">
+							<li>1</li>
+							<li>2</li>
+							<li>3</li>
+							<li>4</li>
 
-    <head>
-        <meta charset="UTF-8" />
-        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-        <title>Marquee Tag</title>
-        <link rel="stylesheet" href="./stle.css" />
-    </head>
+							<ul style="list-style-type: circle">
+								<li>A</li>
+								<li>B</li>
+								<li>C</li>
+								<li>D</li>
+							</ul>
+						</ul>
+					</ol>
+				</li>
 
-    <body style="background-color: rgba(2, 2, 66, 0.596)">
-        <div>
-            <h1 align="center">
-                <marquee behavior="alternate" width="25%" bgcolor="E14D2A">HELLO KON PAPA
-                </marquee>
-            </h1>
-            <h1 align="center">
-                &lt;-------------------------MARQUEE------------------------------>
-            </h1>
-            <marquee bgcolor="F56EB3">Simple marquee</marquee>
-            <marquee width="30%" bgcolor="CB1C8D">MarQuee Use With Width 30%</marquee>
-            <marquee height="50" bgcolor="7F167F" style="color: aliceblue">Marquee Use with Heightc 50</marquee>
-            <marquee direction="right" bgcolor="460C68" style="color: aliceblue">direction right</marquee>
-            <marquee direction="left" bgcolor="460C68" style="color: aliceblue">direction left</marquee>
-            <marquee direction="up" bgcolor="460C68" style="color: aliceblue">direction up</marquee>
-            <marquee direction="down" bgcolor="460C68" style="color: aliceblue">direction down</marquee>
-            <marquee scrolldelay="200" bgcolor="pink">scrolldelay="200"</marquee>
-            <marquee scrollamount="10" bgcolor="F07DEA">scrollamount="10"</marquee>
-            <marquee scrollamount="20" bgcolor="A460ED">scrollamount="20"</marquee>
-            <marquee scrollamount="30" bgcolor="9FC9F3">scrollamount="30"</marquee>
-            <marquee behavior="scrolling" bgcolor="A5F1E9">behavior="scrolling"</marquee>
-            <marquee behavior="sliding" bgcolor="7FE9DE">behavior="slide"</marquee>
-            <marquee behavior="alternate" bgcolor="FFF6BF">behavior="alternate"</marquee>
-            <marquee loop="1" bgcolor="FFEBAD">loop="1"</marquee>
-            <marquee loop="100" bgcolor="FFEBAD">loop="100"</marquee>
-            <marquee vspace="30" bgcolor="B1B2FF">vspace="30"</marquee>
-            <marquee hspace="30" bgcolor="B1B2FF">hspace="30" </marquee>
-        </div>
-        <h1 align="center">
-            &lt;-------------------------LIST------------------------------>
-        </h1>
-        <div>
-            <ul>
-                <ol type="I">
-                    <li>
-                        ID
-                        <ol type="A">
-                            <li>007</li>
-                            <li>333</li>
-                            <li>1110</li>
-                            <li>1010</li>
-                            <li>1100</li>
-                            <ul style="list-style-type: decimal">
-                                <li>
-                                    <h3>Age</h3>
-                                    <ol type="a">
-                                        <li>21</li>
-                                        <li>40</li>
-                                        <li>45</li>
-                                        <li>17</li>
-                                        <li>72</li>
-                                        <ul style="list-style-type: circle">
-                                            <li>
-                                                <h4>They Are Single</h4>
-                                            </li>
-                                        </ul>
-                                    </ol>
-                                </li>
-                            </ul>
-                        </ol>
-                    </li>
-                    <li>
-                        NAME
-                        <ol type="1">
-                            <li>CHHAYA</li>
-                            <li>KENNY</li>
-                            <li>VANNET</li>
-                            <li>VAE SE</li>
-                            <li>VIREAK</li>
-                            <li>GENDER</li>
-                            <ol>
-                                <li>
-                                <h3>GENDER</h3>
-                                <li>Male</li>
-                                <li>GAY</li>
-                                <li>GAY</li>
-                                <li>GAY</li>
-                                <li>GAY</li>
-                    </li>
-                </ol>
-                </ol>
-                </li>
-                </ol>
-            </ul>
-        </div>
-    </body>
+				<li>
+					Mission
+					<ol>
+						<li>1Mission</li>
+						<li>2Mission</li>
+						<li>3Mission</li>
+					</ol>
+				</li>
+				<li></li>
+				<li></li>
+				<li></li>
+				<!-- FOOT LIST -->
+			</ol>
+		</div>
+		<div align="center">
+			<h1>
+				&lt;-------------------------Multimedia------------------------------>
+			</h1>
+			<div>
+				<h1 style="font-family: Akbalthom">នេះជាប្រភេទវីដេអូ MP4</h1>
+				<video
+					frame-width="350"
+					height="250"
+					controls
+				>
+					<source
+						src="./video/iboy.mp4"
+						type="video/mp4"
+					/>
+				</video>
+				<video
+					frame-width="350"
+					height="250"
+					controls
+				>
+					<source
+						src="./video/love don't change (sped up).mp4"
+						type="video/mp4"
+					/>
+				</video>
+				<h1 style="font-family: Akbalthom">នេះជាប្រភេទ Audio MP3</h1>
+				<audio
+					controls
+					autoplay
+				>
+					<source
+						src="./Audio/XXXTENTACION - Revenge (Audio).mp3"
+						type="audio/mp3"
+					/>
+				</audio>
+				<audio
+					controls
+					autoplay
+				>
+					<source
+						src="./Audio/XXXTENTACION - SAD!.mp3"
+						type="audio/mp3"
+					/>
+				</audio>
 
+				<div>
+					<h1 style="font-family: Akbalthom">
+						នេះជាប្រភេទ Video ដែរ Link URL ពី YouTube
+					</h1>
+					<iframe
+						width="560"
+						height="315"
+						src="https://www.youtube.com/embed/brE87KkFyxE"
+						title="YouTube video player"
+						frameborder="0"
+						allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+						allowfullscreen
+					></iframe>
+					<iframe
+						width="560"
+						height="315"
+						src="https://www.youtube.com/embed/CfL5bAD2DHM"
+						title="YouTube video player"
+						frameborder="0"
+						allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+						allowfullscreen
+					></iframe>
+				</div>
+			</div>
+			<h1 style="font-family: besdong">អូទេ!!!!ស៊ូតមិចក្បត់យ៉ាចឹងហា</h1>
+		</div>
+	</body>
 </html>
