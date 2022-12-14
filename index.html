@@ -13,40 +13,41 @@
 		<title>Marquee Tag</title>
 		<link
 			rel="stylesheet"
-			href="./stle.css"
+			href="./style/style.css"
 		/>
 	</head>
 	<style>
 		@font-face {
 			font-family: Akbalthom;
 			font-family: besdong;
+			
+
 			src: url(./font/AKbalthom\ Ream\ Regular.ttf);
 			src: url(./font/KonKhmer_BesDong_V2.ttf);
+			
 		}
-		body {
-			background-color: rgba(2, 2, 66, 0.596);
-			margin: 3rem 4rem;
-		}
+        @font-face{
+            font-family: Surin;
+            src: url(./font/Khmer\ Pen-Surin\ Regular.ttf);
+        }
 	</style>
 	<body>
-		<div>
-			<h1 align="center">
+		<div class="TOP">
+			<h1 class="H">
 				<marquee
-					style="font-family: besdong"
 					behavior="alternate"
 					width="70%"
 					bgcolor="E14D2A"
 					>ហេឡូកូនប៉ា​
 				</marquee>
 				<marquee
-					style="font-family: Akbalthom"
 					behavior="alternate"
 					width="80%"
 					bgcolor="E14D2A"
 					>អោយស៊ូធ្វើមិចហ៎បើគេក៏គោរពស៊ូតដែរនិងហា
 				</marquee>
 			</h1>
-			<h1 align="center">
+			<h1>
 				&lt;-------------------------MARQUEE------------------------------>
 			</h1>
 			<marquee bgcolor="F56EB3">Simple marquee</marquee>
@@ -141,9 +142,7 @@
 				>hspace="30"
 			</marquee>
 		</div>
-		<h1 align="center">
-			&lt;-------------------------LIST------------------------------>
-		</h1>
+		<h1>&lt;-------------------------LIST------------------------------></h1>
 		<div style="color: aqua">
 			<!-- HEAD LIST -->
 			<ol type="I">
@@ -185,77 +184,78 @@
 				<!-- FOOT LIST -->
 			</ol>
 		</div>
-		<div align="center">
-			<h1>
-				&lt;-------------------------Multimedia------------------------------>
-			</h1>
-			<div>
-				<h1 style="font-family: Akbalthom">នេះជាប្រភេទវីដេអូ MP4</h1>
-				<video
-					frame-width="350"
-					height="250"
-					controls
-				>
-					<source
-						src="./video/iboy.mp4"
-						type="video/mp4"
-					/>
-				</video>
-				<video
-					frame-width="350"
-					height="250"
-					controls
-				>
-					<source
-						src="./video/love don't change (sped up).mp4"
-						type="video/mp4"
-					/>
-				</video>
-				<h1 style="font-family: Akbalthom">នេះជាប្រភេទ Audio MP3</h1>
-				<audio
-					controls
-					autoplay
-				>
-					<source
-						src="./Audio/XXXTENTACION - Revenge (Audio).mp3"
-						type="audio/mp3"
-					/>
-				</audio>
-				<audio
-					controls
-					autoplay
-				>
-					<source
-						src="./Audio/XXXTENTACION - SAD!.mp3"
-						type="audio/mp3"
-					/>
-				</audio>
 
-				<div>
-					<h1 style="font-family: Akbalthom">
-						នេះជាប្រភេទ Video ដែរ Link URL ពី YouTube
-					</h1>
-					<iframe
-						width="560"
-						height="315"
-						src="https://www.youtube.com/embed/brE87KkFyxE"
-						title="YouTube video player"
-						frameborder="0"
-						allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-						allowfullscreen
-					></iframe>
-					<iframe
-						width="560"
-						height="315"
-						src="https://www.youtube.com/embed/CfL5bAD2DHM"
-						title="YouTube video player"
-						frameborder="0"
-						allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-						allowfullscreen
-					></iframe>
-				</div>
+		<h1>
+			&lt;-------------------------Multimedia------------------------------>
+		</h1>
+		<div class="vdo">
+			<h1 >នេះជាប្រភេទ Video MP4</h1>
+			<video
+				frame-width="350"
+				height="250"
+				controls
+			>
+				<source
+					src="./video/iboy.mp4"
+					type="video/mp4"
+				/>
+			</video>
+			<video
+				frame-width="350"
+				height="250"
+				controls
+			>
+				<source
+					src="./video/love don't change (sped up).mp4"
+					type="video/mp4"
+				/>
+			</video>
+			<h1 >នេះជាប្រភេទ Audio MP3</h1>
+			<audio
+				controls
+				autoplay
+                muted
+			>
+				<source
+					src="./Audio/XXXTENTACION - Revenge (Audio).mp3"
+					type="audio/mp3"
+				/>
+			</audio>
+			<audio
+				controls
+				autoplay
+                muted
+			>
+				<source
+					src="./Audio/XXXTENTACION - SAD!.mp3"
+					type="audio/mp3"
+				/>
+			</audio>
+
+			<div>
+				<h1>
+					នេះជាប្រភេទ Video ដែរ Link URL ពី YouTube
+				</h1>
+				<iframe
+					width="350"
+					height="250"
+					src="https://www.youtube.com/embed/brE87KkFyxE"
+					title="YouTube video player"
+					frameborder="0"
+					allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+					allowfullscreen
+				></iframe>
+				<iframe
+					width="350"
+					height="250"
+					src="https://www.youtube.com/embed/CfL5bAD2DHM"
+					title="YouTube video player"
+					frameborder="0"
+					allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+					allowfullscreen
+				></iframe>
 			</div>
-			<h1 style="font-family: besdong">អូទេ!!!!ស៊ូតមិចក្បត់យ៉ាចឹងហា</h1>
 		</div>
+		<h1>អូទេ!!!!ស៊ូតមិចក្បត់យ៉ាចឹងហា</h1>
 	</body>
 </html>
